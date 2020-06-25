@@ -82,11 +82,11 @@ module.exports = templateData => {
                     </nav>
                 </div>
             </header>
-            <main class='conatiner my-5'>
+            <main class='container my-5'>
                 ${generateAbout(about)}
                 ${generateProjects(projects)}
             </main>
-            <footer class='container test-center py-3>
+            <footer class='container text-center py-3>
                 <h3 class='text-dark'>&copy; ${new Date().getFullYear()} by ${header.name}</h3>
             </footer>    
         </body>  
